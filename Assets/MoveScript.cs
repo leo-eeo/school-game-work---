@@ -29,7 +29,7 @@ public class MoveScript : MonoBehaviour
         {
             print("We collided with the cube");
             Destroy(other.gameObject);
-            gameController.IncreaseScore(100);
+            gameController.IncreaseScore(50);
         }
     }
 
